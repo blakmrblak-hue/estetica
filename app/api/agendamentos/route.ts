@@ -106,3 +106,4 @@ export async function POST(req: Request) {
   // A confirmação chega depois, por webhook, e muda o status para 'confirmado'.
  
   return NextResponse.json({ agendamentoId: agendamento.id, valorCentavos: preco.preco_centavos });
+}
